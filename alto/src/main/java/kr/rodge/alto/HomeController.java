@@ -31,6 +31,7 @@ public class HomeController {
 		
 		String formattedDate = dateFormat.format(date);
 		String rodge = "AAA";
+		String alto = "ALTO_LAPANG";
 		model.addAttribute("serverTime", formattedDate );
 		
 		return "home";
